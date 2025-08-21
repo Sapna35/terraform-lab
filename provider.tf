@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "sapna-demobucket-12345"   
+    bucket = "sapna-demobucket-200825"   
     key    = "terraform.tfstate"
     region = "eu-west-3"
     encrypt = true
@@ -17,3 +17,4 @@ terraform {
 provider "aws" {
   region = "eu-west-3"
 }
+
