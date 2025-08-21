@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "sapna-demobucket-200825"
-    key    = "terraform.tfstate"
+    key = "Sapna_Demo/terraform.tfstate"
     region = "eu-west-3"
     use_lockfile = true
   }
